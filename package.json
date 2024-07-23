@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "node server.js",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -16,10 +17,13 @@
     "@splidejs/react-splide": "^0.7.12",
     "axios": "^1.6.8",
     "dayjs": "^1.11.10",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "flowbite": "^2.3.0",
     "flowbite-react": "^0.7.5",
     "jwt-decode": "^4.0.0",
     "lottie-react": "^2.4.0",
+    "path": "^0.12.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.1",
