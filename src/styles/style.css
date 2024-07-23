@@ -1,0 +1,4 @@
+input[type="radio"]:checked + label {
+    background-color: #3883c5; /* Change the background color to highlight */
+    color: white; /* Change the text color to make it readable */
+  }
